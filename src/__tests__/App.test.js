@@ -10,7 +10,11 @@ describe("Testing routing Application", () => {
   });
 
   describe("App component should", () => {
+    // beforeEach(() => {
+    //   render(<App />);
+    // });
     beforeEach(() => {
+      // eslint-disable-next-line testing-library/no-render-in-setup
       render(<App />);
     });
 
